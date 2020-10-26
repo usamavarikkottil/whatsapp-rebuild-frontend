@@ -1,0 +1,72 @@
+.sideBar__chat_contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid #F5F5F5;
+    min-height: 5rem;
+    cursor: pointer;
+    
+    
+}
+
+
+.sideBar__chat_contact:hover {
+    background-color: #F5F5F5;
+}
+
+.sideBar__chat__contact__icon {
+
+  
+  padding: 0 13px;
+
+}
+
+.sideBar__chat__contact__icon .MuiAvatar-root{
+    width: 3.5rem;
+    height: auto;
+}
+.sideBar__chat__details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 15px;
+    
+    
+}
+
+.sideBar__chat__contact__details {
+
+    line-height: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.sideBar__chat__contact__details__name {
+    
+    font-weight: 360;
+    margin: 0;
+    
+}
+
+.sideBar__chat__contact__details__time {
+    
+  color: gray;
+  font-weight: 350;
+  font-size: 0.85rem;
+  margin: 0;
+  
+
+}
+
+.sideBar__chat__contact__details__message {
+    
+ color: gray;
+ font-weight: 350;
+ margin: 0;
+ padding-top: .9rem;
+
+
+}
+

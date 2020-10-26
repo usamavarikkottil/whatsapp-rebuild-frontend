@@ -1,0 +1,113 @@
+.sideBar {
+    flex-grow: 1;
+    max-width: 400px;
+    min-width: 300px;
+    border: 0.3px solid #DADADA;
+    
+}
+
+.sideBar__top {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDEDED;
+    
+}
+
+.sideBar__top__left {
+padding-top: 5px;
+/* flex: 2; */
+}
+
+.sideBar__top__left .MuiSvgIcon-root{
+    font-size: 2.5rem;
+}
+
+.sideBar__top__right {
+
+    /* padding: .4rem; */
+    display: flex;
+    justify-content: space-around;
+    /* flex: 2; */
+   
+}
+
+.sideBar__top__right .MuiSvgIcon-root{
+    font-size: 1.6rem;
+    /* padding-left: 1rem; */
+    /* margin-left: 1rem; */
+    
+}
+
+.sideBar__search {
+    background-color: #F6F6F6;
+    height: 2rem;
+    padding: 15px;
+
+    
+}
+
+.sideBar__search__container {
+
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: -3px ;
+
+
+}
+
+.sideBar__search__container input {
+    border:0;
+    outline-width: 0;
+    color: #4F4F4F;
+    flex: 1;
+    
+   } 
+  .sideBar__search__container .MuiSvgIcon-root {
+      color: #4F4F4F;
+      font-size: 1.1rem;
+      margin-right: 1.5rem;
+  }
+
+
+
+.sideBar__search__container input:focus::placeholder {
+    color: transparent;
+    text-align: left;
+    
+  }
+
+ .sidebar-chats {
+ 
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    height: 71.5vh;
+ }
+
+ /* Designing for scroll-bar */ 
+ ::-webkit-scrollbar { 
+    width: 5px; 
+} 
+
+/* Track */ 
+::-webkit-scrollbar-track { 
+    background:white; 
+    border-radius: 5px; 
+    
+} 
+
+/* Handle */ 
+::-webkit-scrollbar-thumb { 
+    background:#CCCCCC; 
+    /* border: 10px solid white; */
+    /* border-radius: 5px;  */
+} 
+
+/* Handle on hover */ 
+::-webkit-scrollbar-thumb:hover { 
+    background: #999; 
+} 
