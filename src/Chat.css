@@ -1,3 +1,62 @@
 .chat{
     flex-grow: 4;
 }
+
+.chat__top {
+    padding: 11.3px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDEDED;
+    
+}
+
+.chat__top__left {
+padding-top: 5px;
+display: flex;
+align-items: center;
+/* flex: 2; */
+}
+
+
+
+.chat__top__right {
+
+    /* padding: .4rem; */
+    display: flex;
+    justify-content: space-around;
+    /* flex: 2; */
+   
+}
+
+
+.chat__contact {
+    display: flex;
+    flex: 1;
+    padding-right: 15px;
+    flex-direction: column;
+    
+}
+
+.chat__contact__name {
+    
+    font-weight: 360;
+    margin: 0;
+    
+}
+
+.chat__contact__lastseen {
+    
+  color: gray;
+  font-weight: 350;
+  font-size: 0.85rem;
+  margin: 0;
+  
+
+}
+
+.chat__contact__icon {
+
+  
+    padding-right: 13px;
+  
+  }
