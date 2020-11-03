@@ -1,5 +1,5 @@
 import { Avatar, IconButton } from '@material-ui/core';
-import { MoreVertRounded, SearchRounded } from '@material-ui/icons';
+import { AttachFile, InsertEmoticon, MicOutlined, MoreVertRounded, SearchRounded } from '@material-ui/icons';
 import React from 'react'
 import "./Chat.css"
 
@@ -29,6 +29,70 @@ function Chat() {
                         <MoreVertRounded />
                     </IconButton>
                 </div>
+
+            </div>
+
+
+            <div className="chat__center">
+                <div className="chat__message received__message">
+                    <h3 className="sender__name"> Usama V</h3>
+                    <p className="message">Hey, What's up? <span className="chat__timestamp">10:34 AM</span></p>
+                </div>
+
+                <div className="chat__message received__message">
+                    <h3 className="sender__name"> Usama V</h3>
+                    <p className="message">Hey, What's up? <span className="chat__timestamp">10:34 AM</span></p>
+                </div>
+
+                <div className="chat__message sent__message">
+                    <h3 className="sender__name"> Usama V</h3>
+                    <p className="message">Hey, What's up?  <span className="chat__timestamp">10:34 AM</span></p>
+                </div>
+
+                <div className="chat__message received__message">
+                    <h3 className="sender__name"> Usama V</h3>
+                    <p className="message">Hey, What's up? <span className="chat__timestamp">10:34 AM</span></p>
+                </div>
+
+                <div className="chat__message received__message">
+                    <h3 className="sender__name"> Usama V</h3>
+                    <p className="message">Hey, What's up? <span className="chat__timestamp">10:34 AM</span></p>
+                </div>
+
+                <div className="chat__message received__message">
+                    <h3 className="sender__name"> Usama V</h3>
+                    <p className="message">Hey, What's up? This is the Last message <span className="chat__timestamp">10:34 AM</span></p>
+                </div>
+
+            </div>
+
+
+
+
+            <div className="chat__bottom">
+
+                <IconButton>
+                    <InsertEmoticon />
+                </IconButton>
+                <IconButton>
+                    <AttachFile />
+                </IconButton>
+
+                <div className="new__message__input">
+
+
+                    <input type="text" placeholder="Type a message" />
+                </div>
+
+                <IconButton>
+                    <MicOutlined />
+                </IconButton>
+
+
+
+
+
+
 
             </div>
         </div>
