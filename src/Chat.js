@@ -14,7 +14,7 @@ function Chat() {
                     </div>
                     <div className="chat__contact">
                         <h3 className="chat__contact__name">Usama Varikkottil</h3>
-                        <p class="chat__contact__lastseen">Last seen today at 10:22 AM</p>
+                        <p className="chat__contact__lastseen">Last seen today at 10:22 AM</p>
                     </div>
 
                 </div>
