@@ -13,7 +13,7 @@
   box-shadow: -1px 4px 20px -6px rgba(0,0,0,.75);
   height: 90vh;
   width: 90vw;
-  margin-top: -50px;
+  /* margin-top: -50px; uncomment this if style breakss ;P */
   /* flex-wrap: wrap; */
 
 }

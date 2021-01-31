@@ -2,9 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import './App.css';
-import Chat from './Chat';
+import Dashboard from './Dashboard';
 import Login from './Login';
-import Sidebar from './Sidebar';
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
       <div className="app">
         <div className="app__body">
           <Route path="/login" component={Login} />
-          <Sidebar />
-          <Chat />
+          <Route path="/dashboard" component={Dashboard} />
         </div>
       </div>
     </Router>

@@ -1,0 +1,7 @@
+.dashboard {
+  display: flex;
+  width: 90vw;
+  /* flex-wrap: wrap; */
+/* The dashboard style is copied from app.js style (app__body class style) 
+change it according to the bugs if necessary... */
+}
